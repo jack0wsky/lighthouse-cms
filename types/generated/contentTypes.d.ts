@@ -1148,12 +1148,6 @@ export interface ApiValuesPageValuesPage extends Schema.SingleType {
           localized: true;
         };
       }>;
-    values: Attribute.Component<'value.value', true> &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     title: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {

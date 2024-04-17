@@ -24,17 +24,6 @@
       },
       "type": "text"
     },
-    "values": {
-      "displayName": "Value",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "value.value"
-    },
     "title": {
       "pluginOptions": {
         "i18n": {

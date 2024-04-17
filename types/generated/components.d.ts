@@ -1,9 +1,10 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
-export interface ValueValue extends Schema.Component {
+export interface ListItemsValue extends Schema.Component {
   collectionName: 'components_value_values';
   info: {
     displayName: 'Value';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
@@ -15,7 +16,7 @@ export interface ValueValue extends Schema.Component {
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
-      'value.value': ValueValue;
+      'list-items.value': ListItemsValue;
     }
   }
 }
